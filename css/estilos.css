@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+        * {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #fafafa;
+        }
+
+        .bolo {
+            text-align: center;
+            font-size: 24px;
+            width: 25px;
+            background: linear-gradient(45deg, #d7d7d7 1%, #d7d7d7 50%, #ebebeb 51%, #ebebeb 100%);
+            padding: 8px;
+            border-radius: 50%;
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .loteria {
+            float: left;
+            margin-left: 65px;
+            background-color: white;
+            width: 250px;
+            border-radius: 15px;
+            height: 220px;
+            margin-bottom: 25px;
+
+        }
+
+        .contenedor {
+            line-height: 50px;
+            width: 185px;
+            margin: auto;
+
+            display: block;
+
+        }
+
+        .fl {
+            line-height: 24px;
+        }
+
+        .pr {
+            width: 225px;
+            line-height: 55px;
+        }
+
+        .st {
+            width: 225px;
+            line-height: 40px;
+        }
+
+        .b-pr {
+            margin-left: 20px;
+        }
+
+        .nc {
+            width: 225px;
+        }
+
+        .nc-b {
+            margin-left: 30px;
+        }
+
+        .ang {
+            line-height: 60px;
+        }
+
+        .lot {
+            width: 225px;
+            line-height: 50px;
+        }
+
+        .verde {
+            background: linear-gradient(135deg, #52b231 0%, #52b231 50%, #1d8c10 51%, #1d8c10 100%);
+            color: white;
+        }
+
+        .gris {
+            background: linear-gradient(45deg, #d7d7d7 1%, #d7d7d7 50%, #ebebeb 51%, #ebebeb 100%);
+            color: black;
+        }
+
+        .hora {
+            margin-top: 10px;
+            font-weight: 700;
+            text-align: center;
+            font-size: 22px;
+
+        }
+
+        .banner-container {
+            margin-bottom: 30px;
+            position: fixed;
+            width: 100%
+        }
+        #hora{
+            position: absolute;
+            top: 83%;
+            right: 10%;
+            font-size: 24px;
+            color: black;
+            z-index: 4;
+            font-weight: 700;
+        }
